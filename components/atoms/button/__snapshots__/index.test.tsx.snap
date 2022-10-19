@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders 1`] = `
+.c0 {
+  width: auto;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: background-color 0.3s,border-color 0.3s;
+  transition: background-color 0.3s,border-color 0.3s;
+  background-color: #2d87f3;
+  border: 1px solid #2d87f3;
+  color: #fff;
+  padding: 9px 24px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.c0:hover:not(:disabled) {
+  background-color: #2c74df;
+}
+
+.c0:not(:is([disabled],[data-is-loading='true'])):active {
+  background-color: #2b62cd;
+}
+
+.c0[data-theme='marryBaby']:disabled,
+.c0:disabled {
+  border-color: #bfbfbf;
+  background-color: #bfbfbf;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.c0[data-event-category] > * {
+  pointer-events: none;
+}
+
+.c0:focus-visible {
+  outline: 2px solid black;
+}
+
+<button
+  class="c0"
+  data-color="primary"
+  data-size="md"
+  data-theme="helloSites"
+>
+  <span>
+    <span
+      class="button-icon"
+    />
+     
+    This is a test tag
+  </span>
+</button>
+`;
